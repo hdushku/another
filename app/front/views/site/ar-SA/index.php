@@ -33,5 +33,5 @@ CSS
 
 <div class="demo">
     <h1 class="demo-title">Yii <?= Yii::getVersion(); ?></h1>
-    <p class="text-muted text-center">Application ID: <kbd><?= Yii::$app->id; ?></kbd></p>
+    <p class="text-muted text-center">معرف التطبيق: <kbd><?= Yii::$app->id; ?></kbd></p>
 </div>

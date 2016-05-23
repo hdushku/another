@@ -3,6 +3,13 @@
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
+        'urlManager' => [
+            'class' => 'codemix\localeurls\UrlManager',
+
+            // List all supported languages here
+            // Make sure, you include your app's default language.
+            'languages' => ['ar-SA'],
+        ],
         'db' => [
             'class' => env('DB_CLASS', 'yii\db\Connection'),
             'dsn' => env('DB_DSN', 'mysql:host=localhost;port=3306;dbname=app_db'),

@@ -4,7 +4,7 @@ return [
     // String, required, root directory of all source files
     'sourcePath' => __DIR__ . DIRECTORY_SEPARATOR . '..',
     // Array, required, list of language codes that the extracted messages
-    'languages' => ['uk', 'ru'],
+    'languages' => ['uk', 'ru','ar-SA'],
     // String or array of strings, the name of the function for translating messages.
     'translator' => 'Yii::t',
     // Boolean, whether to sort messages by keys when merging new messages

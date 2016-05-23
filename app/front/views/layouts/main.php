@@ -12,12 +12,20 @@ use base\widgets\LangSelect;
  * @var $this    yii\web\View
  * @var $content string
  */
-
+$dir_ar = "dir='rtl'";
+$dir_en = "dir='ltr'";
+raoul2000\bootswatch\BootswatchAsset::$theme = 'slate';
 AppAsset::register($this);
+//AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>"
+<?php
+    if(Yii::$app->language=='ar-SA')
+       echo $dir_ar;
+    ?>
+    >
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">

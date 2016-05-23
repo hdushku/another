@@ -19,7 +19,9 @@
         "codemix/yii2-localeurls": "~1.4",
         "dektrium/yii2-user": "0.9.*@dev",
         "dektrium/yii2-rbac": "dev-master",
-        "vlucas/phpdotenv": "~2.2"
+        "vlucas/phpdotenv": "~2.2",
+        "raoul2000/yii2-bootswatch-asset": "*",
+        "filsh/yii2-oauth2-server": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
