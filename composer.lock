@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "090fbb27237b3064980ea605b257cd33",
-    "content-hash": "bce8ccb4df80926f851dba961f2eff74",
+    "hash": "9e00787f02519db08fceb144a9412cc6",
+    "content-hash": "52b96643c4c75d8fa5bf5cd2e164d3f3",
     "packages": [
         {
             "name": "2amigos/yii2-file-upload-widget",
@@ -2834,7 +2834,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "ext-gd": "*"
     },
     "platform-dev": []
 }

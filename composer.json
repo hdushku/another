@@ -29,7 +29,8 @@
         "tugmaks/yii2-google-maps": "*",
         "yii2mod/yii2-google-maps-markers": "*",
         "pigochu/yii2-jquery-locationpicker": ">=0.2.0",
-        "fxp/composer-asset-plugin": "^1.1"
+        "fxp/composer-asset-plugin": "^1.1",
+        "ext-gd": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
