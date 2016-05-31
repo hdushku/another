@@ -21,7 +21,14 @@
         "dektrium/yii2-rbac": "dev-master",
         "vlucas/phpdotenv": "~2.2",
         "raoul2000/yii2-bootswatch-asset": "*",
-        "filsh/yii2-oauth2-server": "*"
+        "creocoder/yii2-translateable": "^1.0",
+        "linchpinstudios/yii2-blog": "*",
+        "omgdef/yii2-multilingual-behavior": "^2.1",
+        "pendalf89/yii2-blog": "*",
+        "pendalf89/yii2-filemanager": "*",
+        "tugmaks/yii2-google-maps": "*",
+        "yii2mod/yii2-google-maps-markers": "*",
+        "pigochu/yii2-jquery-locationpicker": ">=0.2.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",

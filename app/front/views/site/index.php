@@ -15,7 +15,7 @@ $this->registerCss(<<<'CSS'
 }
 .demo h1 {
     text-align: center;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 300;
     font-family: 'Lato';
     color: #ddd;

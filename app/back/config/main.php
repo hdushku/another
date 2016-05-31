@@ -13,6 +13,18 @@ $config = [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'authClientCollection' => [
+            'class'   => \yii\authclient\Collection::className(),
+            'clients' => [
+                // here is the list of clients you want to use
+                // you can read more in the "Available clients" section
+                'github' => [
+                    'class'        => 'dektrium\user\clients\GitHub',
+                    'clientId'     => 'CLIENT_ID',
+                    'clientSecret' => 'CLIENT_SECRET',
+                ],
+            ],
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -69,7 +81,10 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
 
     $config['modules']['debug'] = ['class' => 'yii\debug\Module'];
-    $config['modules']['gii'] = ['class' => 'yii\gii\Module'];
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+        //'allowedIPs' => ['*'],
+        ];
 }
 
 return $config;
